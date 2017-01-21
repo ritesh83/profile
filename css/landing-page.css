@@ -10,6 +10,10 @@ html {
     height: 100%;
 }
 
+body {
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+}
+
 body,
 h1,
 h2,
@@ -22,7 +26,7 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .lead {
@@ -35,8 +39,6 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
-    background-size: cover;
 }
 
 .intro-message {
@@ -71,7 +73,6 @@ h6 {
     }
 
     ul.intro-social-buttons > li {
-        display: block;
         margin-bottom: 20px;
         padding: 0;
     }
